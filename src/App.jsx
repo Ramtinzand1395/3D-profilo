@@ -1,0 +1,34 @@
+import { useTranslation } from "react-i18next";
+import {
+  About,
+  Contact,
+  Feedbacks,
+  Hero,
+  Navbar,
+  Tech,
+  Works,
+  StarsCanvas,
+} from "./components";
+
+function App() {
+  const { i18n } = useTranslation();
+  document.body.dir = i18n.dir();
+  return (
+    <div className="relative z-0 bg-primary">
+      <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+        <Navbar />
+        <Hero />
+      </div>
+      <About />
+      <Tech />
+      <Works />
+      <Feedbacks />
+      <div className="relative z-0">
+        <Contact />
+        <StarsCanvas />
+      </div>
+    </div>
+  );
+}
+
+export default App;

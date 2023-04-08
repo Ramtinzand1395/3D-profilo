@@ -1,0 +1,13 @@
+{
+  "work": "my work",
+  "projects": "Projects.",
+  "intro":"Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described withlinks to code repositories and live demos in it. It reflects myability to solve complex problems, work with different technologies,and manage projects effectively.",
+  "Redux Shop description":"this weblog is designed with redux to receive store information from api: fakestoreapi.com With the possibility of targeting and adding the product to the shopping cart",
+  "Redux Shop":"Redux Shop",
+  "Chat Aplication description":"Web application designed with ChatEngine library and firebase backend, which has the ability to create an environment for chatting between two or more users and create groups in chats, display users typing and...",
+  "Chat Aplication":"Chat Aplication",
+  "Web-log description":"React weblog with Graphql structure, which can add author, delete author and create posts containing photos and content and comments section",
+  "Web-log":"Web-log",
+  "Map Onlinedescription":"The recruitment project of Peshgaman Asia Company to select the route of origin and destination on the map and select tools by the company's own api",
+  "Map Online":"Map Online"
+}
